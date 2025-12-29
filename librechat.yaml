@@ -97,14 +97,14 @@ mcpServers:
     chatMenu: true
     startup: true
     serverInstructions: Use this to search for and download books from Anna's Archive
-    oauthCallbackUrl: https://librechat-production-df2d.up.railway.app/api/mcp/annas-archive/oauth/callback
 
 # ==============================================================================
 # MCP SETTINGS
 # ==============================================================================
 mcpSettings:
+  oauthCallbackUrl: https://librechat-production-df2d.up.railway.app/api/mcp/oauth/callback
   allowedDomains:
-    - server.smithery.ai
+    - "*"
 
 # ==============================================================================
 # FILE CONFIG
