@@ -91,14 +91,12 @@ endpoints:
 mcpServers:
   annas-archive:
     type: streamable-http
-    url: https://server.smithery.ai/chris/annas-mcp
+    url: https://annas-mcp.onrender.com
     timeout: 60000
     initTimeout: 30000
     chatMenu: true
     startup: true
     serverInstructions: Use this to search for and download books from Anna's Archive
-    oauth:
-      redirect_uri: https://librechat-production-df2d.up.railway.app/api/mcp/annas-archive/oauth/callback
 
 # ==============================================================================
 # MCP SETTINGS
